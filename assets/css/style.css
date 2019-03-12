@@ -222,6 +222,13 @@ input[type=submit] {
 
   }
 
+  #head-container {
+    position: fixed;
+    margin-left: -15px;
+    width: 100%;
+    max-width: 100%;
+  }
+
 #masthead {
   float: center;
   overflow: auto;
@@ -230,9 +237,7 @@ input[type=submit] {
 }
 
 #logo {
-  float: center;
   width: 100%;
-  margint: 0 auto;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   font-weight: 700;
@@ -241,15 +246,20 @@ input[type=submit] {
   text-align: center;
   text-decoration: none;
   clear: both;
+  position: absolute;
 }
 
 .main-section {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 nav {
-  float: center;
-  margin-top: 25px;
+  margin: auto;
+  position: fixed;
+  top: 90px;
+  background: #fff;
+  height: 40px;
+  width: 100%;
 }
 
 nav a {
@@ -264,4 +274,13 @@ nav a {
 
 nav a:first-child {
   border-left: 0 none;
+}
+
+#navwrapper {
+  height: 40px;
+  width: 100%;
+  margin: auto;
+  line-height: 18px;
+  position: absolute;
+  left: 30%;
 }
